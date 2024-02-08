@@ -323,8 +323,7 @@ const processTextFunctions = {
     processReferenceJson(node, obj, chapterIndex);
   },
 
-  SCHEMEINLINE: (node, obj) =>
-    processTextFunctions["PYTHONINLINE"](node, obj),
+  SCHEMEINLINE: (node, obj) => processTextFunctions["PYTHONINLINE"](node, obj),
 
   PYTHONINLINE: (node, obj) => {
     if (
