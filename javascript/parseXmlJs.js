@@ -20,12 +20,7 @@ const tagsToRemove = new Set([
   "NAME"
 ]);
 
-const ignoreTags = new Set([
-  "CHAPTERCONTENT",
-  "span",
-  "SPLITINLINE",
-  "PYTHON"
-]);
+const ignoreTags = new Set(["CHAPTERCONTENT", "span", "SPLITINLINE", "PYTHON"]);
 
 const preserveTags = new Set([
   "B",
